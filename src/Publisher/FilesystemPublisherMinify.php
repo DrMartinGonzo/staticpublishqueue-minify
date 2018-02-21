@@ -16,7 +16,7 @@ class FilesystemPublisherMinify extends FilesystemPublisher
     protected function publishPage($response, $url)
     {
         $response->setBody($this->getMinifiedHTML($response->getBody()));
-        parent::publishPage($response, $url);
+        return parent::publishPage($response, $url);
     }
 
     protected function getMinifiedHTML($originalHTML)
