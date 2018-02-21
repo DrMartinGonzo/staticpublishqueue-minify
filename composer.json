@@ -1,0 +1,21 @@
+{
+    "name": "drmartingonzo/staticpublishqueue-minify",
+    "description": "Minify HTLM created by silverstripe/staticpublishqueue",
+    "license": "BSD-3-Clause",
+    "type": "silverstripe-vendormodule",
+    "keywords": ["silverstripe", "static", "html", "security", "performance", "static-publishing", "caching", "cache", "static-caching", "static-cache", "queue", "publishing", "minify"],
+    "authors": [{
+        "name": "Martin Portevin",
+        "email": "martin.portevin@gmail.com"
+    }],
+    "require": {
+        "silverstripe/staticpublishqueue": "^4",
+        "wa72/html-pretty-min": "^0.1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "drmartingonzo\\staticpublishqueue-minify\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

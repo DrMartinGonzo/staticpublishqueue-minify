@@ -1,0 +1,7 @@
+---
+Name: staticpublishqueueminify
+After: '#staticpublishqueue'
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\StaticPublishQueue\Publisher:
+    class: DrMartinGonzo\StaticPublishQueueMinify\Publisher\FilesystemPublisherMinify
