@@ -10,7 +10,7 @@
     }],
     "require": {
         "silverstripe/staticpublishqueue": "^4",
-        "wa72/html-pretty-min": "^0.1.4"
+        "wa72/html-pretty-min": "^0.2"
     },
     "autoload": {
         "psr-4": {
