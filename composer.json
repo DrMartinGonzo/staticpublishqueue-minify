@@ -1,6 +1,6 @@
 {
     "name": "drmartingonzo/staticpublishqueue-minify",
-    "description": "Minify HTLM created by silverstripe/staticpublishqueue",
+    "description": "Minify HTML created by silverstripe/staticpublishqueue",
     "license": "BSD-3-Clause",
     "type": "silverstripe-vendormodule",
     "keywords": ["silverstripe", "static", "html", "security", "performance", "static-publishing", "caching", "cache", "static-caching", "static-cache", "queue", "publishing", "minify"],
